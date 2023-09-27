@@ -1,4 +1,11 @@
--- Looking at total "deaths per case", sorted by col. 1&2, to keep it in chronological order
+/*
+Covid 19 Data Exploration 
+
+Skills used: Joins, CTE's, Temp Tables, Windows Functions, Aggregate Functions, Creating Views, Converting Data Types
+
+*/
+
+-- Looking at total "deaths per case", sorted by columns 1&2, to keep it in chronological order
 -- The likelihood of dying if you contract COVID19 in Bulgaria between 2020-03-08 and 2021-04-30
 
 SELECT
@@ -98,7 +105,7 @@ WHERE
 ORDER BY
   1, 2;
 
--- Joining the two major tables, so we can properly use them onwards.
+-- Joining the two major tables, so we can properly use them going forwards.
 
 SELECT
   *
